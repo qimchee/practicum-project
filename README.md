@@ -1,11 +1,15 @@
 # Проекты, выполненные в рамках программы Data Science Яндекс.Практикума.
 
-Анализ и предобработка данных (Pandas).
-Построение графиков (Seaborn и MatPlotLib).
-Работа с методами базового машинного обучение, такими как линейная и логистическая регрессии, методы решающих деревьев и их ансамбли, метод ближайших соседей (Scikit-Learn).
-Градиентный спуск (LightGBM и CatBoost)
-Использование библиотеки NumPy.
-Базовый NLP и работа с нейронными сетями
-Методы статистического анализа. Понятия медианы, среднего, моды, p-value и тестов Стьюдента.
-Решение задач классификации, регрессии, кластеризации.
-Разработка pipeline обучения.
+| #    | Наименование проекта                | Описание                                                     | Стек                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1.   | [Определение возраста покупателей](https://github.com/qimchee/practicum-project/tree/main/age-of-buyers) | Определение возраста по фотографии. CV. | Python, Keras |
+| 2.   | [Обучение модели классификации комментариев](https://github.com/qimchee/practicum-project/tree/main/classification-of-comments) | Обучение моделей классификации комментариев на позитивные и негативные| numpy, pandas, matplotlib, tf-idf |
+| 3.   | [Определение стоимости автомобиля](https://github.com/qimchee/practicum-project/tree/main/cost-of-car) | Была разработана система рекомендации стоимости автомобиля на основе его описания. | Python, Pandas, CatBoost, Decision Tree, Random Forest |
+| 4.   | [Классификация клиентов телеком компании](https://github.com/qimchee/practicum-project/tree/main/customer-outflow) | Проанализировать поведение клиентов с целью предложения перехода на новый тариф | Python, Pandas, Matplotlib, Scikit-learn |
+| 5.   | [Прогноз количества заказов для сервиса такси](https://github.com/qimchee/practicum-project/tree/main/forecasting-taxi-order) | Прогноз количества заказов в аэропортах <br/>для сервиса такси с целью более точного планирования количества доступных <br/>автомобилей | python, pandas, numpy, statsmodels, sklearn, CatBoost, matplotlib |
+| 6.   | [Определение наиболее выгодного региона нефтедобычи](https://github.com/qimchee/practicum-project/tree/main/location-for-the-well) | На основе данных геологической разведки выбраnm район добычи нефти.  | Python, Pandas, Scikit-learn |
+| 7.   | [Изучение закономерностей, определяющих успешность игр](https://github.com/qimchee/practicum-project/tree/main/patterns-of-successful-game) | Используя исторические данные о продажах компьютерных игр, оценках пользователей и критиков, жанрах и платформа выявbnm закономерности, определяющие успешность игры. | Python, Pandas, Matplotlib, NumPy |
+| 8.   | [Защита данных клиентов страховой компании](https://github.com/qimchee/practicum-project/tree/main/protection-of-personal-data) | Разработать модель анонимизации персональных данных на основе умножения матриц | Python, NumPy, Scikit-learn |
+| 9.   | [Улучшение процесса обогащения золота](https://github.com/qimchee/practicum-project/tree/main/recovery-of-gold-from-ore) | Выбор лучшей модели для увеличения <br/>показателей технологического процесса <br/>обогащения золота | python, pandas, numpy, scipy, sklearn, matplotlib       |
+| 10.   | [Анализ рынка недвижимости](https://github.com/qimchee/practicum-project/tree/main/sale-of-apartments) | Используя данные сервера Яндекс-Недвижимости, определить рыночную стоимость объектов недвижимости и типичные параметры квартир | Python, Pandas, Matplotlib |
+| 11.   | [Прогнозирование оттока телеком компании](https://github.com/qimchee/practicum-project/tree/main/telecom) | На основе персональных данных клиентов необходимо выяснить собирается клиент уходить или нет, и при необходимости предложить специальные условия или промокоды. | Python, Pandas, Scikit-learn, Catboost, Seaborn, Matplotlib, pipeline |
